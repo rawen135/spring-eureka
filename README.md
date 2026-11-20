@@ -2,7 +2,8 @@
 
 Projet Maven multi-module contenant le serveur Eureka et les microservices demandes dans l'atelier.
 <img width="1917" height="966" alt="Capture d&#39;écran 2026-11-20 205005" src="https://github.com/user-attachments/assets/49bed561-2079-460f-93a8-9a16f3f13011" />
-<img width="1871" height="817" alt="Capture d&#39;écran 2026-11-20 205857" src="https://github.com/user-attachments/assets/1098dd1f-050e-46aa-86ce-96a279be5ee8" />
+<img width="1917" height="966" alt="Capture d&#39;écran 2026-11-20 212940" src="https://github.com/user-attachments/assets/5257381d-8ec2-49b2-9489-5c5e0c065c8e" />
+
 
 ## Membres de l'equipe
 
