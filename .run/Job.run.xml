@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Job" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.example.job.JobApplication" />
+    <module name="job" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/job" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

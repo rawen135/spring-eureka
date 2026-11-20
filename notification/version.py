@@ -1,0 +1,2 @@
+SERVICE_NAME = 'Notification'
+SERVICE_VERSION = '1.0.0'

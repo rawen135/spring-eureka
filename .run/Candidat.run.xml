@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Candidat" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.example.candidat.CandidatApplication" />
+    <module name="candidat" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/candidat" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
