@@ -23,20 +23,6 @@ La valeur `info.app.team` de Candidat peut etre renseignee avec la variable `APP
 | Notification | Python / FastAPI | 8084 | - | NOTIFICATION |
 | Candidature | Spring Boot / MySQL | 8085 | MySQL | CANDIDATURE |
 
-## Demarrage
-
-Demarrer MySQL dans XAMPP ou WAMP, puis Eureka Server, puis les microservices. Garder chaque application en execution pour qu'elle continue d'envoyer ses heartbeats a Eureka.
-
-
-
-### Meeting (Node.js / Express)
-
-Installer Node.js, puis lancer depuis le dossier `meeting` :
-
-```powershell
-npm install
-npm start
-```
 
 Le service expose `GET /health` et `GET /info`. Les URLs `/health` et `/info` sont publiees dans son instance Eureka.
 
@@ -46,9 +32,7 @@ Installer Python 3.12 ou plus recent, puis lancer depuis le dossier `notificatio
 
 Le service expose `GET /health` et `GET /info`. Son instance declare ces deux URL dans le registre Eureka.
 
-## Verification Actuator et Eureka
 
-Les liens ci-dessous sont cliquables lorsque les services correspondants sont demarres :
 
 | Service | Tableau / informations | Sante | Metriques |
 | --- | --- | --- | --- |
