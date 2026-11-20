@@ -107,13 +107,11 @@ Appeler plusieurs fois <http://localhost:8081/api/candidats/hello>, puis ouvrir 
 
 La mesure `COUNT` donne le nombre de requetes observees et `MAX` la duree maximale. Dans la capture de cet exemple, le filtre `status:200` donne COUNT `15` et MAX `0.0096801` seconde; sans filtre, COUNT `21` et MAX `0.0096801` seconde. Ces valeurs changent avec le trafic.
 
-## Bannière rouge d'Eureka en local
 
-Le seuil de renouvellement est fixe a 50 % pour cet atelier local et recalcule chaque minute. Cela conserve la protection Eureka, tout en evitant que quelques secondes de decalage entre heartbeats declenchent un faux avertissement avec les instances de demonstration. Apres une modification de configuration du serveur, le redemarrer et actualiser le tableau.
 
 ## Captures pour le rendu
 
-### Tableau Eureka : cinq services UP, sans alerte rouge
+### Tableau Eureka : cinq services UP
 
 ![Tableau Eureka sans alerte rouge](docs/captures/eureka-dashboard.png)
 
