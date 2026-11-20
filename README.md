@@ -27,20 +27,7 @@ La valeur `info.app.team` de Candidat peut etre renseignee avec la variable `APP
 
 Demarrer MySQL dans XAMPP ou WAMP, puis Eureka Server, puis les microservices. Garder chaque application en execution pour qu'elle continue d'envoyer ses heartbeats a Eureka.
 
-### Applications Java dans IntelliJ IDEA
 
-Ouvrir ce dossier comme projet Maven et recharger tous les projets Maven. Choisir ensuite l'une des configurations partagees dans `.run/` : `Eureka Server`, `Candidat`, `Job` ou `Candidature`.
-
-Pour lancer depuis des terminaux PowerShell separes a la racine du projet :
-
-```powershell
-.\mvnw.cmd -pl eureka-server spring-boot:run
-.\mvnw.cmd -pl candidat spring-boot:run
-.\mvnw.cmd -pl job spring-boot:run
-.\mvnw.cmd -pl candidature spring-boot:run
-```
-
-MySQL est attendu sur `localhost:3306`, utilisateur `root`, mot de passe vide par defaut. Les bases `job_db` et `candidature_db` sont creees si le compte MySQL l'autorise. Les parametres sont surchargeables avec `JOB_DB_URL`, `JOB_DB_USERNAME`, `JOB_DB_PASSWORD`, `CANDIDATURE_DB_URL`, `CANDIDATURE_DB_USERNAME` et `CANDIDATURE_DB_PASSWORD`.
 
 ### Meeting (Node.js / Express)
 
@@ -56,13 +43,6 @@ Le service expose `GET /health` et `GET /info`. Les URLs `/health` et `/info` so
 ### Notification (Python / FastAPI)
 
 Installer Python 3.12 ou plus recent, puis lancer depuis le dossier `notification` :
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python -m uvicorn main:app --host 0.0.0.0 --port 8084
-```
 
 Le service expose `GET /health` et `GET /info`. Son instance declare ces deux URL dans le registre Eureka.
 
