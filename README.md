@@ -28,12 +28,6 @@ Le service expose `GET /health` et `GET /info`. Les URLs `/health` et `/info` so
 
 ### Notification (Python / FastAPI)
 
-Installer Python 3.12 ou plus recent, puis lancer depuis le dossier `notification` :
-
-Le service expose `GET /health` et `GET /info`. Son instance declare ces deux URL dans le registre Eureka.
-
-
-
 | Service | Tableau / informations | Sante | Metriques |
 | --- | --- | --- | --- |
 | Eureka | [Tableau de bord](http://localhost:8761) · [Registre JSON](http://localhost:8761/eureka/apps) | - | - |
