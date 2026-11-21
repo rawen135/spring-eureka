@@ -99,4 +99,4 @@ La seconde capture de Eureka montre Job en `DOWN` alors que les quatre autres se
 
 ![Informations Notification](docs/captures/notification-info.png)
 
-Les noms des membres dans la section « Membres de l'equipe » restent a remplacer avant le depot GitHub.
+
