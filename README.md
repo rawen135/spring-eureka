@@ -61,7 +61,7 @@ La mesure `COUNT` donne le nombre de requetes observees et `MAX` la duree maxima
 
 
 
-## Captures pour le rendu
+
 
 ### Tableau Eureka : cinq services UP
 
