@@ -48,13 +48,7 @@ Liens supplementaires pour l'atelier : [logs de Job](http://localhost:8082/actua
 
 ### Modifier le niveau des logs sans redemarrer
 
-L'endpoint `/actuator/loggers` est expose sur les trois applications Java. Exemple PowerShell pour activer `DEBUG` sur le controleur Job :
 
-```powershell
-Invoke-RestMethod -Method Post -Uri http://localhost:8082/actuator/loggers/org.example.job.JobController -ContentType 'application/json' -Body '{"configuredLevel":"DEBUG"}'
-```
-
-Pour lire le niveau courant, ouvrir <http://localhost:8082/actuator/loggers/org.example.job.JobController>, puis appeler <http://localhost:8082/api/jobs/hello> et observer le journal IntelliJ.
 
 ### Lire les metriques HTTP
 
